@@ -1,0 +1,115 @@
+@font-face {
+    font-family: billabong;
+    src: url(billabong.ttf);
+  }
+body{
+    background: rgb(243, 243, 243);
+}
+  .head{
+      position: relative;
+      font-family: billabong;
+      font-size: 60px;
+      text-align: center;
+      top: 40px;
+      font-weight: 580;
+      letter-spacing: 1px;
+
+  }
+
+.parent{position: absolute;
+    width: 350px;
+    height: 100vh;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%,0);
+background: rgb(243, 243, 243);}
+
+
+.view{
+    width: 100%;
+    position: relative;
+    height: 40rem;
+    top: 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:10px 10px 50px 2px rgb(167, 167, 167);
+}
+.login-fb{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 5px 60px;
+    top: 40px;
+    color: white;
+    background-color: rgb(60, 144, 212);
+    border-radius: 6px;
+    border: none;
+    font-weight: 550;
+    opacity: .5;
+    transition: opacity .3s ease, padding .1s ease;
+}
+
+.login-fb:hover{
+    opacity: 1;
+    padding: 7px 66px;
+  
+}
+.or-parent-main{
+    position: relative;
+}
+
+.or-parent{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    top:  70px;
+
+}
+.line-one{
+border: 0.5px solid;
+color: rgb(128, 128, 128);
+width: 120px;
+height: 0px;
+}
+
+.line-two{
+    border: 1px solid;
+    color: rgb(128, 128, 128);
+    width: 120px;
+    height: 0px;
+}
+.or{
+    position: relative;
+    top: -7px;
+    left: -3px;
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+
+.login{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 5px 113px;
+    top: 180px;
+    color: white;
+    background-color: rgb(66, 129, 180);
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+}
+
+
+.frgtpass{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    left:70px;
+}
+.passfrgt{
+    text-decoration: none;
+    border: none;
+    padding: 0 0;
+    background-color: white;
+}
