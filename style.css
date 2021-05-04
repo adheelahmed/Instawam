@@ -115,7 +115,7 @@ height: 0px;
     padding: 0 0;
     background-color: white;
 }
-*/screen sizenn vendi aan ivde lastilot media query cheyya*/
+/*screen sizenn vendi aan ivde lastilot media query cheyya*/
 @media screen and (max-width:501px) {
     body{
         background-color: red;
