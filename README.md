@@ -5,4 +5,4 @@ Login Page:
 https://adheelahmed-d3cd.github.io/Instawam/
 
 Home Page:
-https://adheelahmed-d3cd.github.io/Instawam-home/
+
